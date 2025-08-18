@@ -1,0 +1,55 @@
+/* fonts */
+/* inter font for logo */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* raleway font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* universal selector */
+*{box-sizing: border-box;}
+
+
+/* header */
+.header-container {
+   
+    width: 100%;
+    background-image: url(./assignment-pic/Hero-bg.png);
+    background-repeat: no-repeat;}
+    /* navbar */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;padding: 20px 100px 50px 100px;}
+    /* logo */
+.nav-logo a{text-decoration: none;
+color: #4E47FF;
+font-size: 34px;
+font-weight: 800;
+ font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+
+}
+/* btn-primary */
+.btn-primary  {background-color: #4E47FF;padding:10px 25px;border-radius: 8px; font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;font-weight: 500;border: none;
+}
+.btn-primary a{text-decoration: none;color: #fff;font-size: 16px;}
+.btn-primary:hover{background-color: #0e0d4c;
+transition: 2s ease;color: bisque;}
+
+/* hero area */
+.hero-container{}
+
+.hero-heading{font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;font-size: 50px;width:905px ;margin: 0 auto;width: 900px;text-align: center;padding: 0px 50px;color:#252432}
+  
+
+
+    
+
+   
