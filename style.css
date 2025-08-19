@@ -57,10 +57,27 @@ transition: 2s ease;color: bisque;}
   font-style: normal;font-size: 40px;color:#242532}
   .action-summary{font-size: 25px;color:#252432;opacity: 50%;padding-right: 80px;font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;padding-bottom: 10px;
-  font-style: normal;}
+  font-style: normal;max-width: 510px;}
   .action-photo img{max-width:405px ;max-height: 330px;}
   .radious-img{border-radius: 42px;}
   .action-button{color:#fff}
+
+
+
+  /* productive users section */
+  .productiveuser-container{background-color:#E4E3FF;max-height: 300px;max-width: 1100px;margin:0 auto;border-radius: 24px;}
+  .puser-heading  {color: #252432;font-size: 32px;font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;text-align: center;padding: 40px 0px 0px 0px;}
+  .puser-details{display: flex;justify-content: space-between;align-items: center;padding:0px 140px}
+  .pusercommon-heading{font-size: 38px;font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;font-weight: bold;
+}
+.puser-motto{color:rgba(0, 0, 0, 0.5);font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;margin: 0 auto;padding-bottom: 40px;}
 
     
 
